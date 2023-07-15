@@ -17,4 +17,4 @@ int SumNumbers(int m, int n)
     else if (m > 0 && n > 0) { return SumNumbers(m - 1, SumNumbers(m, n - 1)); }    // Если m > 0 ,n>0 
     return SumNumbers(m, n);
 }
-System.Console.WriteLine(SumNumbers(m,n));
+System.Console.WriteLine($"Функция Аккермана = {SumNumbers(m,n)}");
